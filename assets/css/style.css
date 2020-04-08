@@ -1,4 +1,17 @@
 
+
+/*------------------------nav section-----*/
+
+
+
+
+
+/*------------------------callout section-----*/
+
+
+
+
+
 /*------------------------about us section-----*/
 .about-us-content{
     padding: 20px 60px;
@@ -7,3 +20,36 @@
 .about-us-content p{
     text-align: justify;
 }
+
+
+/*------------------------ingredients section-----*/
+
+
+
+/*------------------------testionial section-----*/
+.testimonial-group > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+  display: block;
+  flex-wrap: nowrap;
+}
+.testimonial-group > .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
+}
+
+.test-margins{
+    margin: 0 30px;
+    padding: 20px 0;
+}
+
+.blockquote{
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+    text-align: left;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+/*------------------------Social footer section-----*/
