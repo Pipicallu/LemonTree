@@ -1,5 +1,18 @@
 
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin: 0;
+    padding: 0;
+}
 
+h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
 /*------------------------nav section-----*/
 
 
@@ -45,11 +58,22 @@
 
 .blockquote{
     font-family: "Roboto", sans-serif;
-    font-size: 100%;
+    font-size: 110%;
     text-align: left;
     font-weight: 300;
     font-style: italic;
 }
 
+.testimonial-authors{
+    font-style: initial;
+    font-weight: 500;
+    font-size: 100%;
+}
+
+.testimonials-container h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
 
 /*------------------------Social footer section-----*/
