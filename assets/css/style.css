@@ -13,6 +13,17 @@ h2{
     text-transform: uppercase;
 
 }
+
+/*------------------------ Styles section-----*/
+.hr-styles{
+    width: 70px;
+    border-radius: 2px;
+    border: 0;
+    height: 8px;
+    background-color: #26a6ac;
+    margin-top: 20px;
+}
+
 /*------------------------nav section-----*/
 
 
@@ -40,12 +51,27 @@ h2{
 
 
 /*------------------------testionial section-----*/
+
+.testimonials-container{
+    padding: 0 30px; 
+}
+
+.testimonials-bg{
+    background-color: #f3e20c;
+}
+
 .testimonial-group > .row {
   overflow-x: auto;
   white-space: nowrap;
   display: block;
   flex-wrap: nowrap;
+  
 }
+
+.testimonial-group > .row::-webkit-scrollbar {
+  display: none;
+}
+
 .testimonial-group > .row > .col-xs-4 {
   display: inline-block;
   float: none;
@@ -60,8 +86,9 @@ h2{
     font-family: "Roboto", sans-serif;
     font-size: 110%;
     text-align: left;
-    font-weight: 300;
+    font-weight: 700;
     font-style: italic;
+    
 }
 
 .testimonial-authors{
@@ -74,6 +101,8 @@ h2{
     font-family: "Inter", sans-serif;
     font-weight: 900;
     text-transform: uppercase;
+    padding-top: 20px;
+    font-size: 180%;
 }
 
 /*------------------------Social footer section-----*/
