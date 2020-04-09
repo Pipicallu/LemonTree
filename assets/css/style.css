@@ -106,3 +106,36 @@ h2{
 }
 
 /*------------------------Social footer section-----*/
+.social-item{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.social-item .fab{
+    font-size: 300%;
+    padding: 25px;
+    color: white;
+
+}
+
+/*---------------------------------social background section---*/
+.social-fb-bg{
+    background-color: #3b5998;
+}
+
+.social-twitter-bg{
+    background-color: #00acee;
+}
+
+.social-youtube-bg{
+    background-color: #c4302b;
+}
+
+.social-instagram-bg{
+   background: #d6249f;
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
