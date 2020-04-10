@@ -1,15 +1,16 @@
 
 body{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
     letter-spacing: .5px;
     margin: 0;
     padding: 0;
 }
 
 h2{
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif ;
     font-weight: 900;
+    font-size: 180%;
     text-transform: uppercase;
 
 }
@@ -20,8 +21,18 @@ h2{
     border-radius: 2px;
     border: 0;
     height: 8px;
-    background-color: #26a6ac;
+    background-color: #6aa0e6cf;
     margin-top: 20px;
+}
+
+.hr-mini{
+    margin: 0;
+    width: 160px;
+    height: 2px;
+    border: 0;
+    background-color: #fafafa;
+    padding-bottom: 1px;
+    margin-bottom: 5px;
 }
 
 /*------------------------nav section-----*/
@@ -57,7 +68,7 @@ h2{
 }
 
 .testimonials-bg{
-    background-color: #f3e20c;
+    
 }
 
 .testimonial-group > .row {
@@ -88,6 +99,7 @@ h2{
     text-align: left;
     font-weight: 700;
     font-style: italic;
+    color: #808080;
     
 }
 
@@ -102,40 +114,70 @@ h2{
     font-weight: 900;
     text-transform: uppercase;
     padding-top: 20px;
-    font-size: 180%;
+    color: #808080;
+
+    
 }
 
 /*------------------------Social footer section-----*/
+
+.address{
+    display: inline-block;
+    
+    
+}
+.social-links{
+    display: inline-block;
+    float: right;
+    margin-right: 150px;
+}
+
+.address-content{
+    color: white;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 10px 0;
+}
+
 .social-item{
-    width: 100px;
-    height: 100px;
     margin: 0;
-    padding: 0;
+    padding: 0 5px 0 0;
     text-align: center;
+    display: inline;
+    
     
 }
 
 .social-item .fab{
-    font-size: 300%;
-    padding: 25px;
-    color: white;
+    font-size: 150%;
+    padding: 5px;
+    
 
+}
+
+.social-container h2{
+    color: #fafafa;
+    margin: 20px 0 30px 0;
+}
+
+.social-container h4{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color:#fafafa;
 }
 
 /*---------------------------------social background section---*/
-.social-fb-bg{
-    background-color: #3b5998;
+.social-container-bg{
+    background-color: #b5b5b5;
 }
 
-.social-twitter-bg{
-    background-color: #00acee;
+.social-item a{
+    color:#fafafa;
 }
 
-.social-youtube-bg{
-    background-color: #c4302b;
+.social-item a:hover{
+    color: #6aa0e6cf;
+    
+    
 }
 
-.social-instagram-bg{
-   background: #d6249f;
-   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-}
