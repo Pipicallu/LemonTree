@@ -118,6 +118,15 @@ h2{
 
     
 }
+/*------------------------testimonial color section-----*/
+.cite-color{
+    color: #86b2eb;
+
+}
+
+.rounded-circle{
+    border: 4px solid #86b2eb;
+}
 
 /*------------------------Social footer section-----*/
 
