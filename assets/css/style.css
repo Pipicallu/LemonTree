@@ -58,9 +58,58 @@ h2{
 
 
 /*------------------------ingredients section-----*/
+.ingredients-container{
 
+}
 
+.lemon-bg{
+    background: url(../images/hold-lemon.jpg);
+    height: 400px;
+    background-position: center;
+    background-position-y: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+    
+    
+.coconut-bg{
+    background: url(../images/louis-hansel-shotsoflouis-t6JLZcKRSEg-unsplash.jpg);
+    height: 400px;
+    background-position: center;
+    background-position-y: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
+
+.water-bg{
+background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
+    height: 400px;
+    background-position: center;
+    background-position-y: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-txt{
+    text-align: center;
+    border: 3px solid #f8f9fae0;
+    margin: 20px;
+    background-color: #1d212452;
+}
+
+.about-txt h2{
+    color: white;
+    margin: 15px;
+
+}
+
+.about-txt p{
+    color: white;
+    padding: 20px;
+    margin: 10px
+}
 /*------------------------testionial section-----*/
 
 .testimonials-container{
