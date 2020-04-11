@@ -49,12 +49,25 @@ h2{
 
 /*------------------------about us section-----*/
 .about-us-content{
-    padding: 20px 60px;
+    padding: 30px 30px;
+}
+
+.about-us-content h2,h4{
+    color: #6aa0e6cf;
 }
 
 .about-us-content p{
     text-align: justify;
+    color: #808080;
+    max-width: 350px;
+
 }
+
+.about-us-content hr{
+    margin: 20px 0;
+    margin-left: 120px;
+}
+
 
 
 /*------------------------ingredients section-----*/
