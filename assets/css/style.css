@@ -67,7 +67,7 @@ h2{
 .about-us-content p{
     text-align: justify;
     color: #606060;
-    max-width: 350px;
+    max-width: 290px;
     line-height: 1.7em;
     font-size: 14px;
 
@@ -127,7 +127,7 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     text-align: center;
     border: 3px solid #f8f9fae0;
     margin: 20px;
-    background-color: #1d212452;
+    background-color: #1d212457;
 }
 
 .about-txt h2{
