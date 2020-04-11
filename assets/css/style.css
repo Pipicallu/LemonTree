@@ -49,23 +49,41 @@ h2{
 
 /*------------------------about us section-----*/
 .about-us-content{
-    padding: 30px 30px;
+    padding: 30px 30px 30px 40px;
+    background: url(../images/emmanuel-ben-paul-phUlKjjcjbU-unsplash.jpg);
+    height: 400px;
+    background-position: center;
+    background-position-x: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #eff2df;
+    border-bottom: 4px solid white;
 }
 
 .about-us-content h2,h4{
-    color: #6aa0e6cf;
+    color: #808080;
 }
 
 .about-us-content p{
     text-align: justify;
-    color: #808080;
+    color: #606060;
     max-width: 350px;
+    line-height: 1.7em;
+    font-size: 14px;
 
 }
 
 .about-us-content hr{
     margin: 20px 0;
     margin-left: 120px;
+}
+
+.about-us-content h4{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-size: 130%;
+
 }
 
 
