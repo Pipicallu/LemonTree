@@ -177,7 +177,7 @@ h2{
 /*------------------------ingredients section-----*/
 .ingredients-title-bg{
     
-    background-color: #f8f9fa;
+    background-color: white;
     
 }
 
@@ -193,6 +193,7 @@ h2{
     background-position-y: 1px;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
     
     
@@ -204,6 +205,7 @@ h2{
     background-position-y: 1px;
     background-repeat: no-repeat;
     background-size: cover;
+   
 
 }
 
@@ -214,6 +216,8 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     background-position-y: 1px;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
 }
 
 .about-txt{
