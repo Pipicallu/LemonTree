@@ -50,7 +50,8 @@ h2{
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: #0000007a;
+    padding: 0 10px;
 
 }
 
@@ -69,6 +70,10 @@ h2{
 .navbar-dark .navbar-toggler {
     border: none;
     color: white;
+}
+
+.fa-shopping-cart:before {
+    color: #ffffff9e;
 }
 
 
