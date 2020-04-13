@@ -76,7 +76,7 @@ h2{
 /*------------------------callout section-----*/
 .callout-container-bg{
     height: 100vh;
-    max-height: 600px;
+    
      
     background: url(../images/tata-zaremba-xzUnX1k-tq4-unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -115,11 +115,17 @@ h2{
     font-size: 200%;
 }
 
-.jumbotron a{
+.btn-outline-success{
     border-radius: 30px;
-    background-color: #b1e583;
-    border: none;
+    border: 1px solid #b1e583;
+    color: #b1e583;
 }
+
+.jumbotron a:hover{
+   background-color: #b1e583;
+   border: none;
+}
+
 
 
 /*------------------------about us section-----*/
@@ -140,12 +146,12 @@ h2{
 }
 
 .about-us-content p{
-    text-align: justify;
+    text-align: left;
     color: #606060;
-    max-width: 280px;
-    line-height: 1.6em;
+    max-width: 300px;
+    line-height: 1.6;
     font-size: 14px;
-
+    padding: 0 10px;
 }
 
 .about-us-content hr{
@@ -339,7 +345,7 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
 }
 
 .social-item a:hover{
-    color: #6aa0e6cf;
+    color: #b1e583;
     
     
 }
