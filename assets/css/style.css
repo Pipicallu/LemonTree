@@ -417,6 +417,7 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
 .form-size{
   max-width: 500px;
   text-align: center;
+  margin: auto;
 }
 
 .form-control{
