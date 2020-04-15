@@ -377,7 +377,7 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
 /*---------------------------------try section (purchase.html)---*/
 
 .try-bg{
-    
+    height: 100vh;
 
      background: url(../images/zahra-owji-_0zCa-pRUE8-unsplash.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -446,3 +446,31 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
    transition-timing-function: ease-in-out;
 }
 
+.buy-bg{
+    height: 100vh;
+
+    background: url(../images/andy-falconer-dwQRixazu9I-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.buy-txt{
+    text-align: center;
+}
+
+.buy-txt h2{
+    color:white;
+}
+
+.buy-txt p{
+    color:white;
+}
