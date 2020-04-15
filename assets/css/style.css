@@ -373,3 +373,63 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     
 }
 
+
+/*---------------------------------try section (purchase.html)---*/
+
+.try-bg{
+    
+
+     background: url(../images/zahra-owji-_0zCa-pRUE8-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+   
+
+
+}
+
+.try-wrapper{
+    padding: 110px 0 40px 0;
+}
+
+.try-txt{
+ text-align: center; 
+}
+
+.try-txt h2{
+ color: white;
+
+}
+
+.try-txt p{
+ color: white;
+ 
+}
+
+.form-size{
+  max-width: 500px;
+  text-align: center;
+}
+
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid white; 
+    transition: none;
+    color: white;
+
+}
+
+ .form-group input:focus{
+    background-color: transparent;
+    color: white;
+}
