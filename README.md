@@ -1,35 +1,44 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# LemonTree - The Clean lemonade company.  
 
-Welcome Pipicallu,
+In a marketplace saturated with soft drinks & energy drinks full of artificial ingredients,  
+we wanted to cut through the noise and provide the consumer with the simplest/ tastiest/ 
+most pure water alternative out there. Using healthier drinks to make healthier people.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+The idea of this project was to provide our users both consumer and business, with an 
+easy access platform to purchase our product as well as discover all the benefits lemonTree has to offer them. 
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+### Site owner's goal: 
 
-A blue button should appear to click: *Make Public*,
+To set up and e-commerce site that customers or vendors can order from directly as well 
+as showcase the unique features of the product/service.
 
-Another blue button should appear to click: *Open Browser*.
+### External User's Goal
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The sites users are health conscious people or highend restaurants/cafe's who are looking to purcahse a
+cheaper, healthy, 100% green re-usable product as an alternative to mainstream soft-drinks.
 
-A blue button should appear to click: *Make Public*,
+### User stories :
 
-Another blue button should appear to click: *Open Browser*.
+Clancy is the owner of a busy highstreet-side cafe in Richmond he is known for his home made pasteries
+and his cafe food is celebrated by local retail and office workers as a delicious healthy reasonably 
+priced lunch option that keeps them from going to the fast food chain restaurants in the area. 
+His clients love his coffee but he finds that many of them would be more inclined to visit frequently
+if he had a larger variety of fresh drinks to go with his tasty sandwiches. He is presently loosing 
+business to local pharmacies and offlicences which provide a range of main brand high in sugar soft drinks.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Nancy is a young mother of 4 she lives in a very busy area in southeast london with her husband Ralph and
+their two cats Thor and loki. Running a household is a full time job and its made more difficult as she also
+works part time as assitant manager of a local brewery. Her kids are all very active, take part in sport and 
+often drink energy drinks to replenish after a game/session. As any mother who cares for her children's health 
+she wants to make sure her kids aren't taking in energy drinks with too much caffeine or substances that could
+be harmful to their development and is unsure about all the ingredients she sees when looking at the labels on
+some of the drinks she finds in her local supermarket. She wants something that she can smart her kids into taking
+that is both tasty and good for them.
 
-## Updates Since The Instructional Video
+### Wireframe
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+![Image of wireframe](assets/images/wireframe.JPG)
+ Format: ![Alt Text](url) 
