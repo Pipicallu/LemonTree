@@ -154,21 +154,26 @@ h2{
 
 
 .about-us-content-bg{
-    padding: 40px 0;
     background-color: #eff2df;
-}
-
-.about-us-content-bg h2,h4{
     color: #808080;
     text-align: center;
     padding: 20px 40px;
+}
+
+.about-us-content-bg h2{
+    padding-bottom: 20px;
+
+}
+
+.about-us-content-bg h4{
+    padding-bottom: 20px 0;
 }
 
 .about-us-content-bg p{
    
     color: #606060;
     line-height: 1.6;
-    padding: 0 40px;
+    padding: 0 2px;
     text-align: justify;
     
 }
@@ -178,7 +183,7 @@ h2{
     margin-left: 120px;
 }
 
-.about-us-content-bg h4{
+.about-us-content-bg > h4{
     font-weight: 900;
     text-transform: uppercase;
     font-family: "Inter", sans-serif;
@@ -273,7 +278,21 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
 }
 
 .testimonial-group > .row::-webkit-scrollbar {
-  display: none;
+  width: 20px;
+  height: 10px;
+  
+}
+
+.testimonial-group > .row::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.testimonial-group > .row::-webkit-scrollbar-thumb {
+  background: #b1e583; 
+  border-radius: 2px;
+}
+.testimonial-group > .row::-webkit-scrollbar-thumb:hover {
+  background: #8fbd67; 
 }
 
 .testimonial-group > .row > .col-xs-4 {
