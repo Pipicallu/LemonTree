@@ -70,17 +70,54 @@ that is both tasty and good for them.
 
 ### major
  * e-commerce or online store section added to the purchasing page.
- * 
+ * fix the grid in the about me section.
 
  ### minor
  * recognitions and comments from code sources.
  * recgonitions to images suppled from unsplash.
 
 
-#Technologies used.
+#Technologies used
  
 ## Bootstrap
-Specificially its grid system to simplify the positioning of certain elements of the website as well as the navbar and pre-made classes for the forms on purchase.html
+Specificially its grid system to create a responsive mobile first design, simplify the positioning of certain elements of the website as well as the navbar and pre-made classes for the forms on purchase.html
 
-## html 
-Was used to structure the sections of the website as well as add in the links to the 
+## HTML  
+Was used to write all the front end code on the website.
+
+## CSS 
+Used throughout and provides styling to all sections of the website.
+
+# Testing
+# Deployment
+
+# Credits
+
+### content
+All content written was original but wikipedia was used to research The health benefits of ingredients mention on the site.
+particularly this article : https://en.wikipedia.org/wiki/Coconut_sugar
+
+Font awesome - was used to to diplay icons on the website.
+
+Google fonts was also used to provide the styling and typography. 
+
+### media
+The photos used on the site were obtained exclusively from unsplash.com 
+with special thanks to photographers:
+* Alexander Krivitskiy
+* Andy falconer
+* Aston Graham
+* Ben Sweet
+* Emmanuel Ben Paul
+* Jenny pace 
+* Louis Hansel
+* Milad Shams
+* Nathan Dumlao
+* Reka Biro Horvath
+* Seth Doyle
+* Tata Zaremba
+* Zahra Owji
+
+### acknowledgements
+
+The whiskey drop landing page as seen in the user centric development module, as well as the coca-cola uk website were definitely the two main inspirations for the desgin of this website.
