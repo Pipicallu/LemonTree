@@ -77,7 +77,7 @@ that is both tasty and good for them.
  * recgonitions to images suppled from unsplash.
 
 
-#Technologies used
+# Technologies used
  
 ## Bootstrap
 Specificially its grid system to create a responsive mobile first design, simplify the positioning of certain elements of the website as well as the navbar and pre-made classes for the forms on purchase.html
