@@ -55,3 +55,13 @@ that is both tasty and good for them.
                         between company and comsumer. 
  * Testimonial section - Featuring horizontal/side scrollable range of positive feedback from past consumers.
  * Social link footer section - Providing ways to get in touch with the company through various forms of social media.
+
+ ### purcahse.html
+
+ * Buy for business section - the company is taking more of a hands on approach and is looking to cultivate long term 
+ relationships with new businesses, which is why the form section comprises of email and phone inputs as well as a text area.
+ for companies to express their interest in the product.
+
+
+ * try section - As the brand is still relatively new the site is currently exhibiting a try section for consumers
+ to get familiar with the product. This section features a simple address form and a call out section.

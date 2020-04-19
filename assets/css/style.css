@@ -436,7 +436,17 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     color: white;
 }
 
+.form-group textarea:focus{
+    background-color: transparent;
+    color: white;
+}
+
 .form-group input::placeholder{
+    color: rgba(255, 255, 255, 0.808);
+    outline: none;
+}
+
+.form-group textarea::placeholder{
     color: rgba(255, 255, 255, 0.808);
     outline: none;
 }
