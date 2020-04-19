@@ -145,31 +145,30 @@ h2{
 .about-us-bg{
     padding: 30px 30px 30px 30px;
     background: url(../images/emmanuel-ben-paul-phUlKjjcjbU-unsplash.jpg);
-    height: 500px;
     background-position: center;
-    background-position-x: 195px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 180%;
     background-color: #eff2df;
    
 }
 
-.about-us-content{
-    padding: 0 0 20px 0;
 
+.about-us-content-bg{
+    padding: 40px 0;
+    background-color: #eff2df;
 }
 
-.about-us-content h2,h4{
+.about-us-content-bg h2,h4{
     color: #808080;
-    padding: 0 5px;
+    text-align: center;
+    padding: 20px 40px;
 }
 
-.about-us-content p{
+.about-us-content-bg p{
    
     color: #606060;
-    max-width: 350px;
     line-height: 1.6;
-    padding: 0 10px;
+    padding: 0 40px;
     text-align: justify;
     
 }
@@ -179,7 +178,7 @@ h2{
     margin-left: 120px;
 }
 
-.about-us-content h4{
+.about-us-content-bg h4{
     font-weight: 900;
     text-transform: uppercase;
     font-family: "Inter", sans-serif;
