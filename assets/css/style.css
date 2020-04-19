@@ -157,7 +157,7 @@ h2{
     background-color: #eff2df;
     color: #808080;
     text-align: center;
-    padding: 20px 40px;
+    padding: 60px 30px;
 }
 
 .about-us-content-bg h2{
@@ -257,7 +257,7 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     padding: 15px;
     margin: 10px
 }
-/*------------------------testionial section-----*/
+/*------------------------testimonial section-----*/
 
 .testimonials-container{
     padding: 0 30px; 
@@ -279,7 +279,7 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
 
 .testimonial-group > .row::-webkit-scrollbar {
   width: 20px;
-  height: 10px;
+  height: 8px;
   
 }
 
@@ -292,7 +292,7 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
   border-radius: 2px;
 }
 .testimonial-group > .row::-webkit-scrollbar-thumb:hover {
-  background: #8fbd67; 
+  background: #9dcf72; 
 }
 
 .testimonial-group > .row > .col-xs-4 {
