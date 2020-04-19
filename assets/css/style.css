@@ -19,7 +19,7 @@ h2{
 
 }
 
-/*------------------------ Styles section-----*/
+/*------------------------Rule Styles section-----*/
 .hr-styles{
     width: 70px;
     border-radius: 2px;
@@ -86,7 +86,7 @@ h2{
 .callout-container-bg{
     height: 100vh;
     
-     
+/* This code snippet was sourced from css-tricks.com */
     background: url(../images/tata-zaremba-xzUnX1k-tq4-unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -101,6 +101,7 @@ h2{
 
 }
 
+/*I was shown how to do this in the user-centric development module*/
 .opaque-overlay{
     position: absolute;
     top: 0;
@@ -140,7 +141,8 @@ h2{
 
 
 /*------------------------about us section-----*/
-.about-us-content{
+
+.about-us-bg{
     padding: 30px 30px 30px 30px;
     background: url(../images/emmanuel-ben-paul-phUlKjjcjbU-unsplash.jpg);
     height: 500px;
@@ -149,19 +151,26 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #eff2df;
-    border-bottom: 4px solid white;
+   
+}
+
+.about-us-content{
+    padding: 0 0 20px 0;
+
 }
 
 .about-us-content h2,h4{
     color: #808080;
+    padding: 0 5px;
 }
 
 .about-us-content p{
-    text-align: left;
+   
     color: #606060;
-    max-width: 300px;
+    max-width: 350px;
     line-height: 1.6;
     padding: 0 10px;
+    text-align: justify;
     
 }
 
@@ -177,7 +186,6 @@ h2{
     font-size: 130%;
 
 }
-
 
 
 /*------------------------ingredients section-----*/
@@ -255,6 +263,8 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     
 }
 
+/* code sourced from https://stackoverflow.com/questions/38901166/horizontal-scrollable-divs-in-a-bootstrap-row*/
+
 .testimonial-group > .row {
   overflow-x: auto;
   white-space: nowrap;
@@ -271,6 +281,7 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
   display: inline-block;
   float: none;
 }
+/* (End) code sourced from https://stackoverflow.com/questions/38901166/horizontal-scrollable-divs-in-a-bootstrap-row*/
 
 .test-margins{
     margin: 0 30px;

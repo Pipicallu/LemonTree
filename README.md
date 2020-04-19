@@ -12,8 +12,8 @@ easy access platform to purchase our product as well as discover all the benefit
 
 ### Site owner's goal: 
 
-To set up and e-commerce site that customers or vendors can order from directly as well 
-as showcase the unique features of the product.
+To set up a web platform that showcases the unique features of the product and allows customers or vendors to order from 
+and make enquiries directly with the company. 
 
 ### External User's Goal :
 
@@ -79,13 +79,13 @@ that is both tasty and good for them.
 
 # Technologies used
  
-## Bootstrap
+### Bootstrap
 Specificially its grid system to create a responsive mobile first design, simplify the positioning of certain elements of the website as well as the navbar and pre-made classes for the forms on purchase.html
 
-## HTML  
+### HTML  
 Was used to write all the front end code on the website.
 
-## CSS 
+### CSS 
 Used throughout and provides styling to all sections of the website.
 
 # Testing
@@ -118,6 +118,6 @@ with special thanks to photographers:
 * Tata Zaremba
 * Zahra Owji
 
-### acknowledgements
+### Acknowledgements
 
 The whiskey drop landing page as seen in the user centric development module, as well as the coca-cola uk website were definitely the two main inspirations for the desgin of this website.
