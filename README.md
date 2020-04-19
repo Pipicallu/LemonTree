@@ -17,7 +17,7 @@ as showcase the unique features of the product.
 
 ### External User's Goal :
 
-The sites users are health conscious people or highend restaurants/cafe's who are looking to purcahse a
+The sites users are health conscious people or highend restaurants/cafe's who are looking to purchase a
 cheaper, healthy, 100% green re-usable product as an alternative to mainstream soft-drinks.
 
 ### User stories :
@@ -40,7 +40,7 @@ that is both tasty and good for them.
 
 ### Wireframe
 
-![Image of wireframe](../images/wireframe.jpg)
+![Image of wireframe](assets/images/wireframe.jpg)
 
  # features
 
@@ -65,3 +65,22 @@ that is both tasty and good for them.
 
  * try section - As the brand is still relatively new the site is currently exhibiting a try section for consumers
  to get familiar with the product. This section features a simple address form and a call out section.
+
+ ## Future Features to implement:
+
+### major
+ * e-commerce or online store section added to the purchasing page.
+ * 
+
+ ### minor
+ * recognitions and comments from code sources.
+ * recgonitions to images suppled from unsplash.
+
+
+#Technologies used.
+ 
+## Bootstrap
+Specificially its grid system to simplify the positioning of certain elements of the website as well as the navbar and pre-made classes for the forms on purchase.html
+
+## html 
+Was used to structure the sections of the website as well as add in the links to the 
