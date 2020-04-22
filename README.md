@@ -71,14 +71,11 @@ that is both tasty and good for them.
 ### major
  * Subscription model 
  * fix the grid in the about me section.
- * min width to body
  * media query to nav bar, remove shopping cart.
- * add wrap property to the paragraph in testimonials.
  * media query with testimonials
  * blog page marketing
  * header sticky
  * sign up to the footer
- * blog 
  
  ### minor
  * Talk about font use in the ux section 

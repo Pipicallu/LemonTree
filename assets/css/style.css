@@ -5,6 +5,7 @@ body{
     letter-spacing: .5px;
     margin: 0;
     padding: 0;
+    min-width: 300px;
 }
 
 body::-webkit-scrollbar {
@@ -403,6 +404,64 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     
 }
 
+/*---------------------------------pricing section---*/
+
+.pricing-bg{
+ height: 100vh;
+
+     background: url(../images/william-moreland-FqsnnFesVhs-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+   
+}
+
+
+.pricing-plans{
+    padding: 20px;
+    margin: 14px;
+    border: 4px solid #b1e583;
+    color: white;
+}
+.pricing-plans h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.pricing-plans h4{
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+.lead{
+    font-size: 200%;
+}
+
+.pricing-list{
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-list li{
+    padding-left: 1.3em;
+}
+
+li:before {
+  content: "\f094"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
 
 /*---------------------------------try section (purchase.html)---*/
 
