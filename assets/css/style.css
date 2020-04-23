@@ -405,6 +405,9 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
 }
 
 /*---------------------------------pricing section---*/
+.purchase-container{
+
+}
 
 .pricing-bg{
  height: 100vh;
@@ -577,3 +580,4 @@ li:before {
 .buy-txt p{
     color:white;
 }
+
