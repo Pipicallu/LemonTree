@@ -69,7 +69,6 @@ that is both tasty and good for them.
  ## Future Features to implement:
 
 ### major
- * Subscription model 
  * fix the grid in the about me section.
  * media query to nav bar, remove shopping cart.
  * media query with testimonials
