@@ -59,6 +59,9 @@ h2{
     padding: 0 10px;
 
 }
+.navbar-toggler{
+    padding: 0;
+}
 
 .navbar-brand strong{
     color: white;
@@ -80,6 +83,7 @@ h2{
 .fa-shopping-cart:before {
     color: #ffffff9e;
 }
+
 
 
 
@@ -154,6 +158,8 @@ h2{
 }
 
 
+
+
 .about-us-content-bg{
     background-color: #eff2df;
     color: #808080;
@@ -161,7 +167,7 @@ h2{
     padding: 60px 30px;
 }
 
-@media (max-width: 746px){
+@media (max-width: 761px){
     .about-us-content-bg{
       padding: 30px 30px 30px 30px;
       background: url(../images/emmanuel-ben-paul-phUlKjjcjbU-unsplash.jpg);
@@ -179,8 +185,22 @@ h2{
 
 }
 
+@media (max-width: 761px){
+    .about-us-content-bg h2{
+    color: #0b0b0b;
+
+}
+}
+
 .about-us-content-bg h4{
     padding-bottom: 20px 0;
+}
+
+@media (max-width: 761px){
+    .about-us-content-bg h4{
+    color: #0b0b0b;
+
+}
 }
 
 .about-us-content-bg p{
@@ -192,9 +212,10 @@ h2{
     
 }
 
-@media (max-width: 746px) {
+@media (max-width: 761px) {
     .about-us-content-bg p{
         color: black;
+        font-weight: 500;
     }
 
 }
@@ -210,6 +231,18 @@ h2{
     font-family: "Inter", sans-serif;
     font-size: 130%;
 
+}
+
+@media (max-width: 761px){
+.opaque-overlay-light{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+    background-color: rgba(255, 255, 255, 0.23);
+}
 }
 
 
@@ -325,6 +358,14 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
 .test-margins{
     margin: 0 30px;
     padding: 20px 0;
+}
+
+.media{
+ display: flex;
+}
+
+.quotes{
+
 }
 
 .blockquote{
