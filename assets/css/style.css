@@ -40,6 +40,17 @@ h2{
     margin-bottom: 5px;
 }
 
+.hr-news{
+    margin: 0;
+    width: 160px;
+    height: 2px;
+    border: 0;
+    background-color: #fafafa;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}
+
+
 /*------------------------nav section-----*/
 
 .navbar-container{
@@ -465,6 +476,39 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     
 }
 
+.signup-form{
+    padding: 30px 20px 40px 20px;
+}
+
+.signup-form h6{
+    color: white;
+}
+
+.signup-form .btn-outline-success{
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+}
+
+.signup-form .btn-outline-success:hover{
+   background-color: #b1e583;
+   border: none;
+   transition: .4s;
+   transition-timing-function: ease-in-out;
+}
+
+.signup-form .form-control {
+    background-color: transparent;
+    border-radius: 0;
+    border: 2px solid white;
+    transition: none;
+    color: white;
+}
+
+.signup-form input::placeholder{
+    color: white;
+    outline: none;
+}
 /*---------------------------------pricing section---*/
 .purchase-container{
 
