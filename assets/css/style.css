@@ -74,6 +74,15 @@ h2{
     padding: 0;
 }
 
+.navbar-title i{
+
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    margin: 0;
+}
+
 .navbar-brand strong{
     color: white;
     font-weight: 900;
@@ -84,6 +93,7 @@ h2{
 
 .fa-shopping-cart:before {
     color: white;
+    margin: 0;
 }
 
 .navbar-dark .navbar-toggler {
@@ -91,12 +101,16 @@ h2{
     color: white;
 }
 
-.fa-shopping-cart:before {
-    color: #ffffff9e;
+.btn-outline-primary {
+    color: white;
+    border-color: white;
 }
 
-
-
+.btn-outline-primary:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.829);
+    border: none;
+}
 
 /*------------------------callout section-----*/
 .callout-container-bg{
