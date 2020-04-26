@@ -69,9 +69,6 @@ that is both tasty and good for them.
  ## Future Features to implement:
 
 ### major
-
- * media query to nav bar, remove shopping cart.
- * media query with testimonials
  * blog page marketing
  
 
