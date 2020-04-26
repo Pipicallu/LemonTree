@@ -469,6 +469,10 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     padding: 30px;
 }
 
+.testimonials-small-container h2{
+    color: grey;
+}
+
 @media (min-width: 762px){
     .testimonials-small-container{
         display: none;
@@ -480,6 +484,15 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     padding: 20px;
 }
 
+.testimonial-image{
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-indicators li{
+    background-color: #b1e583;
+    height: 4px;
+}
 /*------------------------Social footer section-----*/
 
 .address{
