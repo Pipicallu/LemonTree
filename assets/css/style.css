@@ -88,13 +88,9 @@ h2{
     font-weight: 900;
     text-transform: uppercase;
     font-size: 120%;
-
+    padding-left: 25px;
 }
 
-.fa-shopping-cart:before {
-    color: white;
-    margin: 0;
-}
 
 .navbar-dark .navbar-toggler {
     border: none;
@@ -104,14 +100,45 @@ h2{
 .btn-outline-primary {
     color: white;
     border-color: white;
+    padding: 4px;
+}
+.btn-outline-primary i{
+    font-size: 90%;
 }
 
 .btn-outline-primary:hover{
     background-color: white;
     color: rgba(0, 0, 0, 0.829);
     border: none;
+    transition: .4s;
+    transition-timing-function: ease-in-out;
 }
 
+@media (max-width: 763px){
+    .btn-outline-primary small{
+        display: none;
+    }
+}
+
+@media (max-width: 763px){
+    .btn-outline-primary{
+        border: none;
+        
+    }
+}
+
+@media (max-width: 763px){
+    .btn-outline-primary i{
+        font-size: 110%;
+        color: #f8f9fae0 ;
+    }
+}
+
+@media (max-width: 763px){
+    .navbar-brand strong{
+        padding: 0;
+    }
+}
 /*------------------------callout section-----*/
 .callout-container-bg{
     height: 100vh;

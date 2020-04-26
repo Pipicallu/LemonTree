@@ -69,12 +69,12 @@ that is both tasty and good for them.
  ## Future Features to implement:
 
 ### major
- * fix the grid in the about me section.
+
  * media query to nav bar, remove shopping cart.
  * media query with testimonials
  * blog page marketing
- * header sticky
- * sign up to the footer
+ 
+
  
  ### minor
  * Talk about font use in the ux section 
