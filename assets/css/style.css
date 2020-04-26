@@ -74,9 +74,6 @@ h2{
     padding: 0;
 }
 
-.navbar-title i{
-
-}
 
 .navbar-dark .navbar-brand {
     color: #fff;
@@ -91,11 +88,17 @@ h2{
     padding-left: 25px;
 }
 
+@media (min-width: 763px){
+    .navbar-brand{
+        float: left;
+    }
+}
 
 .navbar-dark .navbar-toggler {
     border: none;
     color: white;
 }
+
 
 .btn-outline-primary {
     color: white;
@@ -368,6 +371,12 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     padding: 0 30px; 
 }
 
+@media (max-width: 762px){
+    .testimonials-container{
+        display: none;
+    }
+}
+
 .testimonials-bg{
     
 }
@@ -452,6 +461,23 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
 
 .rounded-circle{
     border: 4px solid #b1e583;
+}
+
+
+/*------------------------testimonial small section-----*/
+.testimonials-small-container{
+    padding: 30px;
+}
+
+@media (min-width: 762px){
+    .testimonials-small-container{
+        display: none;
+    }
+}
+
+
+.carousel-item p{
+    padding: 20px;
 }
 
 /*------------------------Social footer section-----*/
