@@ -5,7 +5,7 @@ body{
     letter-spacing: .5px;
     margin: 0;
     padding: 0;
-    min-width: 300px;
+    min-width: 375px;
 }
 
 body::-webkit-scrollbar {
@@ -183,7 +183,6 @@ h2{
 }
 
 .btn-outline-success{
-    border-radius: 30px;
     border: 1px solid #b1e583;
     color: #b1e583;
 }
@@ -628,6 +627,13 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
   display: inline-block;
   margin-left: -1.3em; /* same as padding-left set on li */
   width: 1.3em; /* same as padding-left set on li */
+}
+
+form .btn-outline-success:hover{
+   background-color: #b1e583;
+   border: none;
+   transition: .4s;
+   transition-timing-function: ease-in-out;
 }
 
 /*---------------------------------try section (purchase.html)---*/
