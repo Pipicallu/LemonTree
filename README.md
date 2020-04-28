@@ -92,13 +92,12 @@ there is also a third option which appears on reduced screens.
  ## Future Features to implement:
 
 ### major
- * blog page marketing
+ 
  
 
  
  ### minor
- * Talk about font use in the ux section 
- * photos in ux 
+
 
 
 # Technologies used
