@@ -38,9 +38,20 @@ be harmful to their development and is unsure about all the ingredients she sees
 some of the drinks she finds in her local supermarket. She wants something that she can smart her kids into taking
 that is both tasty and good for them.
 
+### Typography
+
+The font Inter was chosen from the google fonts catalog for its flexibility/simplicity and modernity. It is extremely versatile and appears distinctive in both bold and regular formats.
+As a derivitive of open sans it instantly recognisable and went well with the playful colour-scheme of the site. 
+
+### images
+
+The images were all sourced from unsplash.com and all artists can be found credited below. Opaque overlays were used to bring out the contrast between the Typography and the image. You may notice that the colours dont deviate far from the green white and grey colorscheme
+and in the case of the about me and ingredients section all images picked feature hands, picked purposefully to mirror the handmade image of the product and thus taking the customer away from the mass produced imagery of other brands.
+
 ### Wireframe
 
 ![Image of wireframe](assets/images/wireframe.jpg)
+
 
  # features
 
@@ -48,15 +59,22 @@ that is both tasty and good for them.
 
  * Navigation section - Responsive navbar design which keeps its uniformity on both mobile and desktop devices.
                         featuring a collapsible hamburger menu designed with bootstrap, Company logo (centered)
-                        and shopping cart icon for future e-commerce page.
+                        and a sign up icon which leads the user to the newsletter portion of the site.
  * Callout section - Full viewport background image wih centered callout text as well as call to action **Buy Now!** button.
  * About us section - Featuring mini company Bio as well as Health focused Company Ethos
  * Ingredients section - Showcasing lemontree's ingredients and unique value proposition done for transparency 
                         between company and comsumer. 
- * Testimonial section - Featuring horizontal/side scrollable range of positive feedback from past consumers.
+ * Testimonial section - Featuring horizontal/side scrollable range of positive feedback from past consumers which flips to a carousel design for mobile devices. The latter being sourced from bootstraps documentation.
  * Social link footer section - Providing ways to get in touch with the company through various forms of social media.
+                                aswell as a newsletter sections where customers can sign up to receive information on the
+                                doings and initiatives. 
 
  ### purcahse.html
+
+* pricing plan section - This section features 3 seperate subscription plans with added value incementally with the increase of price on both premium and family options.
+                        there are also selectors for different options of flavour. This section is also fully responsive on all screen sizes
+
+
 
  * Buy for business section - the company is taking more of a hands on approach and is looking to cultivate long term 
  relationships with new businesses, which is why the form section comprises of email and phone inputs as well as a text area.
@@ -65,6 +83,11 @@ that is both tasty and good for them.
 
  * try section - As the brand is still relatively new the site is currently exhibiting a try section for consumers
  to get familiar with the product. This section features a simple address form and a call out section.
+
+### blog.html
+
+* Blog section with three different entries speaking about the company ethos as well as the company's pledge to charity
+there is also a third option which appears on reduced screens.
 
  ## Future Features to implement:
 
@@ -81,7 +104,7 @@ that is both tasty and good for them.
 # Technologies used
  
 ### Bootstrap
-Specificially its grid system to create a responsive mobile first design, simplify the positioning of certain elements of the website as well as the navbar and pre-made classes for the forms on purchase.html
+Specificially its grid system to create a responsive mobile first design, simplify the positioning of certain elements of the website as well as the navbar and pre-made classes for the forms on purchase.html and cards on blog.html
 
 ### HTML  
 Was used to write all the front end code on the website.
