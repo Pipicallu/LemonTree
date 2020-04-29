@@ -672,6 +672,15 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
   width: 1.3em; /* same as padding-left set on li */
 }
 
+.flavour-form-1{
+    padding-top: 94px;
+
+}
+
+.flavour-form-2{
+    padding-top: 46px;
+}
+
 form .btn-outline-success:hover{
    background-color: #b1e583;
    border: none;
