@@ -664,6 +664,8 @@ background: url(../images/nathan-dumlao-x7Lyx8Yyvug-unsplash.jpg);
     padding-left: 1.3em;
 }
 
+/* code sourced from https://stackoverflow.com/questions/12468359/using-font-awesome-icon-for-bullet-points-with-a-single-list-item-element*/
+
 .pricing-list li:before {
   content: "\f094"; /* FontAwesome Unicode */
   font-family: FontAwesome;
