@@ -93,12 +93,13 @@ there is also a third option which appears on reduced screens.
 
 ### major
  
- 
+ * Possible future articles for blog page.
+ * fully realised transaction page with js.
 
  
  ### minor
 
-
+* all features implemented.
 
 # Technologies used
  
@@ -112,11 +113,59 @@ Was used to write all the front end code on the website.
 Used throughout and provides styling to all sections of the website.
 
 # Testing
+
+The HTML was tested using https://validator.w3.org/ 
+The CSS was tested using https://jigsaw.w3.org/ (validator can't parse root variables)
+
+The site renders as expected on all pages and after testing there was a correction made to the file paths to the images
+in the testimonials section and the cards featured in blog.html.
+
+The site was tested on: 
+13" Macbook pro display, 
+15"Macbook pro display, 
+iPhone X/11/11Pro/11pro max
+iPhone 6/7/8 and plus models
+iphone 5s/SE
+Galaxy s11
+Pixel 2
+iPad Air
+iPad Pro
+
+And renders on both chrome and safari.
+but does break when using microsoft edge.
+
+The site was tested by two users one was a 27 year old male with a background in Frontend/Backend development
+The second a 24 year old female Who identifies as preferring to make purchases online. 
+
+The users where tasked to:
+
+* Identify the main Elements in the first section - both users identified, The navbar, Dropdown menu, and Buy button successfully.
+
+* **Addendum after testing**  The sign up button was changed to read subscribe in order to make it easier to understand that it points to the newsletter in the footer section of website.
+
+* Using the navbar to navigate to the ingredients and about me section - both users performed the task with ease.
+
+* users where then tasked to read through the about me section - the text was darkened in the mobile version to increase visibility as well as a light overlay was applied to the background.
+
+* testimonial section - Both users navigated the section successfully
+
+* navigate to the buy page - perfomed successfully with both links found in callout section and navbar.
+
+* **Addendum after testing**  there was an issue reading the forms on the buy page so a semi-transparent dark overlay was added to the background images. 
+
+* the blog page was easy to use - links were reported as not fully functional, which is fine as the extensions to the blog pages full articles are yet to be implemented.
+
+* **Addendum after testing** Both links to the buy.html and blog.html pages were originally set to **target="_blank** however  this was changed as it was founf to be bothersome to users to have multiple pages open and both users reported that it broke the sites feeling of continuity.
+
 # Deployment
+
+I've deployed the site using GitHub Pages, and is available here: https://pipicallu.github.io/LemonTree/
+
+For this project, local deployment was not required.
 
 # Credits
 
-### content
+### Content
 All content written was original but wikipedia was used to research The health benefits of ingredients mention on the site.
 particularly this article : https://en.wikipedia.org/wiki/Coconut_sugar
 
